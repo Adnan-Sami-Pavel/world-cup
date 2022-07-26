@@ -68,12 +68,36 @@ main {
 }
 
 
-.heading-img img {
-    width: 100%;
-    height: 720px;
+.heading-img {
+    position: relative;
+    width: 50%;
+    height: 713px;
+    overflow: hidden;
+    background-image: url(assets/cristiano_ronaldo_png_by_kooyooss_db6kv6o-fullview.png);
+    background-repeat: no-repeat;
     margin-top: 33px;
+    animation: change 10s infinite ease-in-out;
 }
 
+.heading-img img {
+    opacity: 0;
+}
+
+@keyframes change {
+
+    0% {
+        background-image: url(assets/cristiano_ronaldo_png_by_kooyooss_db6kv6o-fullview.png);
+    }
+
+
+    50% {
+        background-image: url(assets/Banner\ Image.png);
+    }
+
+    100% {
+        background-image: url(assets/neymar-football-render-png-transparent-5.png);
+    }
+}
 
 /* end top_banner */
 
@@ -309,14 +333,34 @@ hr {
         overflow: auto;
     }
 
-
+    .heading-img {
+        width: 50%;
+        height: 713px;
+        overflow: hidden;
+        background-image: url(assets/cristiano_ronaldo_png_by_kooyooss_db6kv6o-fullview.png);
+        background-repeat: no-repeat;
+        margin-top: 33px;
+        animation: change 10s infinite ease-in-out;
+    }
 
     .heading-img img {
+        opacity: 0;
+    }
 
-        width: 100%;
-        height: 685px;
-        margin-top: 33px;
+    @keyframes change {
 
+        0% {
+            background-image: url(assets/cristiano_ronaldo_png_by_kooyooss_db6kv6o-fullview.png);
+        }
+
+
+        50% {
+            background-image: url(assets/Banner\ Image.png);
+        }
+
+        100% {
+            background-image: url(assets/neymar-football-render-png-transparent-5.png);
+        }
     }
 
     .mid-container {
@@ -499,10 +543,34 @@ hr {
 
 
 
+    .heading-img {
+        width: 80%;
+        height: 683px;
+        overflow: hidden;
+        background-image: url(assets/cristiano_ronaldo_png_by_kooyooss_db6kv6o-fullview.png);
+        background-repeat: no-repeat;
+        margin-top: 33px;
+        animation: change 10s infinite ease-in-out;
+    }
+
     .heading-img img {
-        width: 100%;
-        height: 685px;
-        margin-top: 3px;
+        opacity: 0;
+    }
+
+    @keyframes change {
+
+        0% {
+            background-image: url(assets/cristiano_ronaldo_png_by_kooyooss_db6kv6o-fullview.png);
+        }
+
+
+        50% {
+            background-image: url(assets/Banner\ Image.png);
+        }
+
+        100% {
+            background-image: url(assets/neymar-football-render-png-transparent-5.png);
+        }
     }
 
 
